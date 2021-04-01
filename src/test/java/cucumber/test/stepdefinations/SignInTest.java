@@ -18,9 +18,9 @@ import junit.framework.Assert;
 
 public class SignInTest {
 
-	WebDriver driver;
+	 WebDriver driver;
 	
-	@Before
+	/*@Before
 	public void before_scenario()
 	{
 		driver=new ChromeDriver();
@@ -28,7 +28,7 @@ public class SignInTest {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		
-	}
+	}*/
 	
 	
 	@Given("User redirected to  url")
@@ -61,11 +61,12 @@ public class SignInTest {
 	
 	
 
-	@After
+	/*@After
 	public void after_scenario()
 	{
+		
 		driver.quit();
-	}
+	}*/
 	
 	
 }
